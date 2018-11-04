@@ -272,9 +272,6 @@ cursor: pointer;
         width:400px;
         height:400px;
     }
-    .seven-two-five{
-        margin-left:0rem;
-    }
     .view-prime, .view-seven-two-five {
         position: absolute;
         bottom: 80px;
@@ -282,7 +279,7 @@ cursor: pointer;
     }
     .banner2{
         display: block;
-        width: 102vw;
+        width: 104vw;
         margin-right: 0px;
     }
     .banner1{
