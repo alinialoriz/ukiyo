@@ -200,7 +200,7 @@ cursor: pointer;
 .banner1, .banner3{
     box-sizing: border-box;
     width:37vw;
-    height: 17.65vh;
+    height: 124.38px;
     float: right;
     display: none;
 }
@@ -249,7 +249,7 @@ cursor: pointer;
 }
 .benefit2{
     float:left;
-    height: 35.2vh;
+    height: 259.06px;
     background-image: url("./Images/HomePage/Bamboo_Benefit4.png");
     background-size: 100%;
     margin-left:10px;
@@ -259,7 +259,7 @@ cursor: pointer;
 }
 .benefit4, .benefit5{
     float:left;
-    height:18vh;
+    height:132.47px;
 }
 .benefit4{
     background-image: url("./Images/HomePage/Bamboo_Benefit3.png");
