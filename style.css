@@ -1,0 +1,510 @@
+body{
+    font-family: Roboto;
+    margin:0;
+    padding: 0;
+    width: 100vw;
+}
+.overflow-content {
+    overflow: hidden;
+}
+/*************************************/
+/* Header starts here                */
+/*************************************/
+#navbar{
+    background-color: white;
+    box-shadow:0px .1px 6px grey;
+    position: fixed;
+    top:0;
+    width:100vw;
+    z-index:2;
+    transition: top 0.3s;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.scroll-top img {
+    width: 120px;
+    min-width:100px;
+    display: block;
+    float:left;
+    margin-left:15px;
+}
+.menu-icon{
+    width:45px;
+    height:45px;
+    float: right;
+    margin-right:10px;
+    cursor: pointer;
+}
+.menu-icon img{
+    width:45px;
+    height:45px;
+}
+#navbar ul{
+    padding-top:40px;
+    padding-left:0;
+    padding-right:19px;
+    display:none;
+    text-align: right;
+    margin:0;
+}
+#navbar li {
+    list-style: none;
+    font-size:20px;
+}
+a {
+text-decoration: none;
+color: rgba(0, 0, 0, 0.911);
+font-weight: 700;
+cursor: pointer;
+}
+
+/*************************************/
+/* index.html body                   */
+/*************************************/
+#intro {
+    text-align: center;
+}
+.line-animation {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.line1, .line2, .line3, .line4 {
+    background-color:  rgba(0, 0, 0, 0.911);
+    width:25px;
+    
+    margin-left:12px;
+    margin-right:12px;
+}
+.line1, .line2{
+    height:180px;
+}
+.line3, .line4 {
+    height:212px;
+}
+.logo {
+    width: 100vw;
+    height: 36vh;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.logo img{
+    width: 94vw;
+    filter: brightness(10%);
+}
+.intro-message img{
+    width: 64vw;
+    filter: invert(100%);
+    margin-left:9px;
+}
+.intro-message {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:whitesmoke;
+    text-align: center;
+    margin-top:-1px;
+}
+.intro-message p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:15px;
+    margin-right:15px;
+}
+.your{
+    letter-spacing: 10px;
+    margin-left:16px;
+}
+.intro-message button{
+    margin-top:5.5rem;
+    margin-bottom:5.5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-right:4rem;
+    padding-left:4rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    border: 0;
+    color:rgba(0, 0, 0, 0.911);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.intro-message button:hover{
+    background-color:rgb(207, 53, 117);
+    color:white;
+}
+
+#collection-titles{
+    width:100vw;
+}
+.prime, .seven-two-five {
+    display: block;
+    width: 100vw;
+    height: 46vh;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+} 
+.prime{
+    background-image: url("./Images/HomePage/Prime_Collection.png");
+    background-size: 100%;
+    background-position: 0px -55px;
+} 
+.seven-two-five {
+    background-image: url("./Images/HomePage/725_Collection.png");
+    background-size: 100%;
+    background-position: 0px -60px;
+}
+.view-prime, .view-seven-two-five {
+    position: absolute;
+    left:11.5%;
+    right:10%;
+}
+.view-prime{
+    bottom: 56px;
+}
+.view-seven-two-five {
+    bottom: 50px;
+}
+.view-prime button, .view-seven-two-five button{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 20px;
+    border:5px;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+.view-prime button {
+    background-color:  rgba(0, 0, 0, 0.911);
+}
+.view-seven-two-five button{
+    background-color:  rgb(218, 31, 93);
+}
+.view-prime button:hover{
+    background-color: rgb(255, 251, 251);
+    color: black;
+}
+.view-seven-two-five button:hover{
+    background-color: rgb(255, 251, 251);
+    color: black;
+}
+#benefits-banner{
+    width: 100vw;
+}
+.banner1, .banner3{
+    box-sizing: border-box;
+    width:37vw;
+    height: 17.65vh;
+    float: right;
+    display: none;
+}
+.banner1{
+    background-image: url("./Images/HomePage/Bamboo_Benefit000.png");
+    background-size: 100%;
+}
+.banner3{
+    background-image: url("./Images/HomePage/Bamboo_Benefit0.png");
+    background-size: 100%;
+}
+.banner2 {
+    float:left;
+    width:100vw;
+    height: 45vh;
+    background-image: url("./Images/HomePage/Bamboo_Benefit00.png");
+    background-size: 100%;
+    background-position: 0px -15px;
+}
+.separator {
+    clear:both;
+}
+#benefits-content{
+    width: 100vw;
+}
+#benefits-content div{
+    width: 46vw;
+}
+.benefit1, .benefit3{
+    float:right;
+    height: 16.9vh;
+    margin-left:5px;
+    margin-right:10px;
+}
+.benefit1{
+    background-image: url("./Images/HomePage/Bamboo_Benefit1.png");
+    background-size: 100%; 
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.benefit3{
+    background-image: url("./Images/HomePage/Bamboo_Benefit2.png");
+    background-size: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.benefit2{
+    float:left;
+    height: 35.2vh;
+    background-image: url("./Images/HomePage/Bamboo_Benefit4.png");
+    background-size: 100%;
+    margin-left:10px;
+    margin-right:5px;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.benefit4, .benefit5{
+    float:left;
+    height:18vh;
+}
+.benefit4{
+    background-image: url("./Images/HomePage/Bamboo_Benefit3.png");
+    background-size: 100%;
+    margin-left:10px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.benefit5{
+    background-image: url("./Images/HomePage/Bamboo_Benefit5.png");
+    background-size: 100%;
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:5px;
+    margin-right:10px;
+}
+/*************************************/
+/* Footer starts here                */
+/*************************************/
+footer {
+    background-color:rgba(0, 0, 0, 0.911);
+    margin-top:100px;
+    padding-top:80px;
+    padding-bottom: 50px;
+    box-shadow: 2px 0px 4px 2px rgb(95, 94, 94);
+}
+.social-media, .newsletter {
+    display: block;
+    width:60vw;
+    box-sizing: border-box;
+    text-align: center;
+    margin:0 auto;
+}
+.newsletter{
+    padding-top:50px;
+}
+h2 {
+    color:rgb(250, 249, 249);
+    font-weight: 500;
+}
+footer p{
+    color: rgb(174, 175, 175);
+    font-weight: 300;
+    margin-bottom:0;
+}
+footer ul{
+    padding:0;
+    margin-top:0;
+}
+footer li {
+    display: inline;
+}
+.social-media img {
+    height:45px;
+    padding-top:25px;
+}
+
+.facebook{
+    margin-right: 50px;
+}
+input{
+    height: 30px;
+    width:210px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size:17px;
+}
+.newsletter button {
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 8px;
+    border:0px;
+    background-color:rgb(226, 58, 114);
+    font-size:20px;
+    font-weight: 700;
+    color:rgb(250, 249, 249);
+}
+input, .newsletter button {
+    margin-top: 20px;
+} 
+.footer-copy{
+    width: 100vw;
+    padding-top:80px;
+    text-align: center;
+}
+.copyright{
+    color: rgb(174, 175, 175);
+}
+/*************************************/
+/* about.html body                   */
+/*************************************/
+#about-banner{
+    text-align: center;
+    margin-top:11vh;
+}
+#about-images{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#about-banner img {
+    display: inline-block;
+    width:23%;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+#pink-box {
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(226, 58, 114);
+    margin-top:-50px;
+    position: absolute;
+    z-index: 0;
+    animation-delay: 1s;
+}
+#description{
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+}
+.about-logo{
+    width:100%;
+    margin-top: 10rem;
+}
+#description .character{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top:3.7rem;
+}
+#description span {
+    color:rgb(228, 36, 100);
+}
+#description .text{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top:1.5rem;
+}
+.about-cloud{
+    width:260px;
+}
+/*************************************/
+/* basics.html and seven.html body   */
+/*************************************/
+#collection-banner,#collection-banner img {
+    width:100%;
+    margin-top:2vh;
+}
+#collection-banner{
+    animation-duration: 2s;
+}
+#start-journey{
+    text-align: center;
+    margin-bottom:30vh;
+    animation-delay: 1.3s;
+}
+#start-journey p {
+    font-size:2rem;
+}
+#start-journey p, .first-shop button, .second-shop button, .third-shop button, .modal-content p{
+    letter-spacing: .5rem;
+    font-weight: 700;
+}
+#start-journey img{
+    width:6rem;
+    margin-top:-3vh;
+}
+#left-side, #right-side{
+    position: relative;
+    margin-top:25vh;
+}
+.shirt {
+    width:60%;
+}
+.shirt, .first-shop, .second-shop, .third-shop{
+    display: inline-block;
+}
+.shirt img {
+    width:100%;
+}
+.first-shop button, .second-shop button, .third-shop button{
+    border: solid black .4rem;
+    background-color: transparent;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    font-size: 1.5rem;
+}
+.first-shop, .second-shop, .third-shop{
+    position: absolute;
+}
+.first-shop, .third-shop {
+    right:5vw;
+    top: 22vh;
+}
+#right-side {
+    text-align: right;
+}
+.second-shop{
+    left:5vw;
+    top: 22vh;
+}
+.first-shop button:hover{
+    background-color: black;
+    color:white;
+}
+.second-shop button:hover{
+    background-color: black;
+    color:white;
+}
+.third-shop button:hover{
+    background-color: black;
+    color:white;
+}
+.bg-modal{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.modal-content img {
+    width: 100px;
+    height: auto;
+}
+.modal-content p {
+    margin-top:.5px;
+}
+.close {
+    position: absolute;
+    top:0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+}

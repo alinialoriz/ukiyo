@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="animations.css"/>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <a class = "scroll-top" href="">
+                <img src="Images/HomePage/Nav_Logo.png"alt="Ukiyo logo">
+            </a>
+            <div class ="menu-icon">
+                <img src="Images/HomePage/Nav_Icon.png" alt="Menu icon">
+            </div>
+            <div class="separator"></div>
+            <ul>
+                <li>
+                    <a class ="about" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class ="collection"href="#collection-titles">Collection</a>
+                </li>
+                <li>
+                    <a class ="bamboo"href="#benefits-marker">Benefits of Bamboo</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="overflow-content">
+        <main>
+            <section id = "intro">
+                <div class="animatedParent animateOnce">
+                    <div class = "line-animation animated fadeInDown">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
+                </div>
+                <div class="animatedParent animateOnce">
+                    <div class="logo animated fadeIn delay-750">
+                        <img src="Images/HomePage/Intro_Logo.png" alt="This is an image of the Ukiyo logo">
+                    </div>
+                </div>
+                <div class="animatedParent animateOnce">
+                        <div class = "line-animation animated fadeInDownShort delay-1000">
+                            <div class="line3"></div>
+                            <div class="line4"></div>
+                        </div>
+                </div>
+                <div class="animatedParent" data-appear-top-offset="-200">
+                    <div class= "intro-message">
+                        <img class="animated fadeIn" src="Images/HomePage/Intro_Cloud.png" alt="This is an image of a cloud">
+                        <p class=" animated fadeIn">High quality clothing to suit<span class="your">YOUR</span> lifestyle.</p>  
+                        <a href="about.html">
+                            <button>Learn More</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id = "collection-titles">
+                <div class="animatedParent" data-appear-top-offset="-120">
+                    <div class = "prime animated fadeInLeft">
+                        <div class="view-prime">
+                            <a href="basics.html">
+                                <button>VIEW COLLECTION</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "seven-two-five animated fadeInRight">
+                        <div class="view-seven-two-five">
+                            <a href="seven.html">
+                                <button>VIEW COLLECTION</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id = benefits-marker></section>
+            <div class="animatedParent animateOnce" data-appear-top-offset="-150">
+                <div class="animated fadeInUpShort">
+                    <section id = "benefits-banner">
+                        <div class="banner1"></div>
+                        <div class="banner2"></div>
+                        <div class="banner3"></div>
+                    </section>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="animatedParent animateOnce" data-appear-top-offset="-300">
+                <section id = "benefits-content">
+                    <div class="benefit1 animated flipInX"></div>
+                    <div class="benefit2 animated flipInY"></div>
+                    <div class="benefit3 animated flipInX"></div>
+                    <div class="benefit4 animated flipInY"></div>
+                    <div class="benefit5 animated flipInX"></div>
+                </section>
+            </div>
+        </main> 
+    </div>  
+    <footer>
+        <div class="social-media">
+            <h2>Follow us</h2>
+            <p>Follow us on Facebook and Instagram for the latest content</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/ukiyo.clothingco/" target="_blank">
+                            <img src="Images/HomePage/facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/ukiyo.clothingco/#" target="_blank">
+                            <img src="Images/HomePage/instagram (1).png">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="newsletter">
+            <h2>Newsletter</h2>
+            <p>Get our free newsletter for the latest deals and promos</p>
+            <input placeholder="Enter your email">
+            <button>SUBSCRIBE</button>
+        </div>
+        <div class="footer-copy">
+            <span class="copyright">&copy;2018 Ukiyo Clothing Co.</span>
+        </div>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="css3-animate-it.js"></script>
+</body>
+</html>
