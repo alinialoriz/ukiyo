@@ -273,8 +273,11 @@ a:hover{
 }
 @media only screen and (max-width: 515px) {
     .prime, .seven-two-five {
-        width:400px;
-        height:400px;
+        width:410px;
+        height:410px;
+    }
+    .seven-two-five {
+        padding-top:50px;
     }
     .view-prime, .view-seven-two-five {
         position: absolute;
@@ -288,6 +291,9 @@ a:hover{
     }
     .banner1{
         display:none;
+    }
+    .intro-message p{
+        font-size: 1.8rem;
     }
 }
 /*************************************/
