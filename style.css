@@ -159,7 +159,7 @@ cursor: pointer;
 }
 .view-prime, .view-seven-two-five {
     position: absolute;
-    left:11.5%;
+    left:16%;
     right:10%;
 }
 .view-prime{
@@ -234,16 +234,16 @@ cursor: pointer;
     height: 16.9vh;
     margin-left:5px;
     margin-right:10px;
+    background-size: 240px; 
+    background-position: -23px -60px;
 }
 .benefit1{
     background-image: url("./Images/HomePage/Bamboo_Benefit1.png");
-    background-size: 100%; 
     margin-top:10px;
     margin-bottom:5px;
 }
 .benefit3{
     background-image: url("./Images/HomePage/Bamboo_Benefit2.png");
-    background-size: 100%;
     margin-top:5px;
     margin-bottom:5px;
 }
@@ -251,27 +251,29 @@ cursor: pointer;
     float:left;
     height: 259.06px;
     background-image: url("./Images/HomePage/Bamboo_Benefit4.png");
-    background-size: 100%;
+    background-size: 253px;
     margin-left:10px;
     margin-right:5px;
     margin-top:10px;
     margin-bottom:5px;
+    background-position: -30px -7px;
 }
 .benefit4, .benefit5{
     float:left;
     height:132.47px;
+    background-position: -30px -55px;
+    background-size: 253px;
 }
 .benefit4{
     background-image: url("./Images/HomePage/Bamboo_Benefit3.png");
-    background-size: 100%;
     margin-left:10px;
     margin-right:8.1px;
     margin-top:5px;
     margin-bottom:10px;
+   
 }
 .benefit5{
     background-image: url("./Images/HomePage/Bamboo_Benefit5.png");
-    background-size: 100%;
     margin-top:5px;
     margin-bottom:10px;
     margin-left:5px;
