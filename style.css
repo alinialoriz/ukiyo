@@ -33,6 +33,8 @@ body{
     height:45px;
     float: right;
     margin-right:10px;
+}
+.menu-icon:hover{
     cursor: pointer;
 }
 .menu-icon img{
@@ -55,7 +57,9 @@ a {
 text-decoration: none;
 color: rgba(0, 0, 0, 0.911);
 font-weight: 700;
-cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
 }
 
 /*************************************/
