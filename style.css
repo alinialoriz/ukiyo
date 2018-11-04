@@ -85,7 +85,6 @@ cursor: pointer;
 }
 .logo {
     width: 100vw;
-    height: 36vh;
     padding-top:20px;
     padding-bottom:20px;
 }
@@ -143,7 +142,7 @@ cursor: pointer;
 .prime, .seven-two-five {
     display: block;
     width: 100vw;
-    height: 46vh;
+    height: 338px;
     position: relative;
     box-sizing: border-box;
     margin: 0 auto;
@@ -216,7 +215,7 @@ cursor: pointer;
 .banner2 {
     float:left;
     width:100vw;
-    height: 45vh;
+    height: 331px;
     background-image: url("./Images/HomePage/Bamboo_Benefit00.png");
     background-size: 100%;
     background-position: 0px -15px;
