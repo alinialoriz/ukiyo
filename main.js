@@ -5,13 +5,13 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "0";
     $('.scroll-top img').fadeIn();
     if ($(window).width()>=1000){
-        $('#navbar ul').fadeIn();
+        $('#navbar li').fadeIn();
     }
   } else {
     document.getElementById("navbar").style.top = "-50px";
     $('.scroll-top img').fadeOut();
     if ($(window).width()>=1000){
-        $('#navbar ul').fadeOut();
+        $('#navbar li').fadeOut();
     }
   }
   prevScrollpos = currentScrollPos;
