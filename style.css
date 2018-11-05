@@ -364,36 +364,36 @@ a:hover{
 /*************************************/
 #about-banner{
     text-align: center;
-    margin-top:11vh;
+    margin-top:160px;
 }
 #about-images{
     position: relative;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
 }
 #about-banner img {
     display: inline-block;
     width:23%;
-    margin-left:1rem;
-    margin-right:1rem;
+    margin-left:16px;
+    margin-right:16px;
 }
 #pink-box {
-    width: 100%;
-    height: 20vh;
+    width: 100vw;
+    height: 112px;
     background-color:rgb(226, 58, 114);
     margin-top:-50px;
-    position: absolute;
     z-index: 0;
     animation-delay: 1s;
 }
 #description{
+    display:block;
     text-align: center;
-    width:60%;
+    width:60vw;
     margin:0 auto;
 }
 .about-logo{
     width:100%;
-    margin-top: 10rem;
+    margin-top: 160px;
 }
 #description .character{
     font-size: 1.5rem;
@@ -410,6 +410,24 @@ a:hover{
 }
 .about-cloud{
     width:260px;
+}
+@media only screen and (max-width: 515px) {
+    #pink-box{
+        height:82px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .about-cloud{
+        margin-left:-10px;
+    }
+}
+@media only screen and (max-width: 320px){
+    #about-banner img {
+        display: inline-block;
+        width:23%;
+        margin-left:8px;
+        margin-right:8px;
+    }
 }
 /*************************************/
 /* basics.html and seven.html body   */
