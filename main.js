@@ -16,13 +16,6 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-$(window).scroll(function(){
-    $('#description').fadeIn('slow');
-
-    if ($(window).scrollTop()==0){
-    $('#description').hide();
-    }
-})
 if ($(window).width()<1000){
 $('.menu-icon').click(function(){
     $('#navbar ul').toggle('slow');
