@@ -434,7 +434,7 @@ a:hover{
 /*************************************/
 #collection-banner,#collection-banner img {
     width:100%;
-    margin-top:2vh;
+    margin-top:50px;
 }
 #collection-banner{
     animation-duration: 2s;
@@ -527,6 +527,7 @@ a:hover{
         position: static;
         margin-top:30vh;
         justify-content: center;
+        margin-bottom:15vh;
     }
     footer {
         display: block;
