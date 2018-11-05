@@ -136,9 +136,11 @@ a:hover{
 .intro-message button:hover{
     background-color:rgb(207, 53, 117);
     color:white;
+    cursor: pointer;
 }
 #collection-titles{
     text-align:center;
+    padding-top:40px;
 }
 .prime, .seven-two-five {
     display: inline-block;
@@ -179,13 +181,15 @@ a:hover{
 .view-prime button:hover{
     background-color: rgb(255, 251, 251);
     color: black;
+    cursor: pointer;
 }
 .view-seven-two-five button:hover{
     background-color: rgb(255, 251, 251);
     color: black;
+    cursor: pointer;
 }
 #benefits-banner{
-    margin-top:50px;
+    margin-top:100px;
     width:102vw;
 }
 .banner1, .banner2, .banner3{
@@ -202,8 +206,7 @@ a:hover{
 #benefits-content{
     display: block;
     text-align: center;
-    width: 80vw;
-    margin: 0 auto;
+    width: 100vw;
 }
 .benefit1, .benefit2, .benefit3, .benefit4, .benefit5 {
     display:inline-block;
@@ -247,7 +250,29 @@ a:hover{
     background-position: -20px -115px;
     margin-left:25px;
 }
-
+.home-shop{
+    display:flex;
+    justify-content: center;
+    margin-left:26px;
+    margin-top:100px;
+}
+.home-shop button{
+    border: solid black .4rem;
+    background-color: transparent;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-weight:700;
+    letter-spacing: 10px;
+}
+.home-shop button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
 @media only screen and (max-width:1025px){
     .prime, .seven-two-five {
         display:block;
@@ -331,14 +356,15 @@ a:hover{
         width:300px;
         background-size: 110%;
     }
-    #benefits-content{
-        padding: 50px 10vw 50px;
-    }
     .benefit1, .benefit4{
         background-position: -20px -78px;
     }
     .benefit2, .benefit3, .benefit5{
         background-position: -20px -58px;
+    }
+    .home-shop button{
+        padding-right:3rem;
+        padding-left: 3rem;
     }
 }
 @media only screen and (max-width:1070px) and (min-width:943px){
@@ -357,6 +383,30 @@ a:hover{
 .benefit1, .benefit2, .benefit3, .benefit4, .benefit5{
     margin-right:0px;
     margin-left:0px;
+}
+.home-shop{
+    margin-left:0px;
+}
+}
+@media only screen and (max-width: 360px){
+.prime, .seven-two-five {
+    width: 365px;
+    height: 375px;
+}
+.view-prime, .view-seven-two-five {
+    bottom: 68px;
+    margin-left: -63px;
+}
+}
+@media only screen and (max-width: 320px){
+.prime, .seven-two-five {
+    width: 322px;
+    height: 365px;
+}
+.view-prime, .view-seven-two-five {
+    bottom: 90px;
+    margin-left: -48px;
+    padding-left: 64px;
 }
 }
 /*************************************/
